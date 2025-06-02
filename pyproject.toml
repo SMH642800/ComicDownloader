@@ -1,0 +1,22 @@
+[project]
+name = "comicdownload"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "SMH642800",email = "SMH642800@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "urllib3 (>=2.4.0,<3.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "pyqt6 (>=6.9.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
